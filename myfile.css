@@ -1,0 +1,132 @@
+/* A HTML PROJECT BY SHAMSHER QUTBODDIN DESAI USING CSS IN WINDOWS 7*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+/* HERE WE ARE APPLYING THE CSS TO THE UNORDERED LIST TO SHOW THEN AS A MENU BAR*/
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+/* HERE WE ARE USING THE HOVER FUNCTION SO WHEN A MOUSE OVER HAPPENS A ACTION IS DEFINED*/
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+.main{
+    /*max-width: 40%;*/
+    padding: 5px;
+    margin: auto;
+    color: #347017;
+    font-size: 20px;
+    size: 30%;
+    text-align: center;
+    font-style: Cursive;
+}
+   
+.basic p,h2{
+             text-align: center;
+             height: 40%;
+             color: rgb(85, 193, 255);
+             font-size: 30px;
+}
+.right{
+    align-items: right;
+    margin: 30px;
+    font-size: 20px;
+    padding-right: 10%;
+    
+}
+
+h2{
+    font-family: cursive;
+    font-size: 30px;
+    text-align:center;
+    color: rgb(4, 0, 230);
+}
+.basic{
+    text-decoration: rgb(153, 127, 127);
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    align-items: center;
+    align-content: center;
+    width: 50%;
+    height: 50%;
+    background-color: rgb(253, 0, 0);
+
+}
+h1:hover{
+    color: black;
+    font-size: 80px;
+    background-color: skyblue;
+}
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+/* HERE WE APPLY CSS TO THE TITLE DIVISION*/
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: #fff;
+    font-size: 70px;
+    font-family: inherit;
+}
+
+/*THIS IS A CLASS TYPE APPLIED TO ALL THE BUTTON IN LINKED HTML FILES*/
+.button{
+    position: absolute;
+    top:60%;
+    background-color: #fff;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    border: 1px solid aqua;
+    padding: 10px 30px;
+    color:black;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+/*CSS TO FOOTER OF ALL THE PAGES TO MAKE VISUALLY APPLEALING*/
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    color: darkgoldenrod;
+    text-align: center;
+}

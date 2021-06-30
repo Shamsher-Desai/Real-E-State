@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<!--  A HTML PROJECT BY SHAMSHER QUTBODDIN DESAI USING BRACKETS TEXT EDITOR IN WINDOWS 7 -->
+<html>
+<style>
+/*    HERE WE ARE USING THE OUTLINE OR THE EMBEDDED CSS*/
+    
+/*   WE ARE APPLYING THE CSS ELEMENTS TO THE FORM ELEMENTS IN THE PAGE*/
+    input[type=text],select,textarea{
+        width: 100%;
+        padding: 14px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
+    }
+    label{
+        padding: 14px 14px 14px 0;
+        display: inline-block;
+    }
+    input[type=submit]{
+        background-color: #fff;
+        color: black;
+        padding: 12px 12px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: right;
+    }
+    input[type=submit]:hover{
+        background-color: #fff;
+    }
+    .container{
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+    }
+    .col-25{
+        float: left;
+        width: 75%;
+        margin-top: 6px;
+    }
+    .col-75{
+        float: left;
+        width: 75%;
+        margin-top: 6px;
+    }
+    /*CLEAR FLOATS AFTER THE COLOUMS*/
+    .row:after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .logo img{
+        float:left;
+        width: 150px;
+        height: auto;
+    }
+    /* THA CSS FOR THE WHOLE DOCUMENTS ENDS HERE*/
+    </style>
+        <body style="background-image: url(B2.jpeg); background-repeat: no-repeat; background-size: cover">
+            <header>
+    <title>REAL ESTATE IN BANGALORE</title>
+     <link rel="stylesheet" type="text/css" href="myfile.css">
+            </header>
+<!--   HERE BELOW WE ARE USING THE INLINE CSS TO ADD BACKGROUND IMAGE TO THE HTML FILE -->
+            <header>  
+        <div class="main">
+<!--    WE CAN CLICK ON THE LOGO TO BACK TO THE HOME PAGE AS IT HAS A ANCHOR TAG TARGETTING THE HOMEPAGE-->
+            <div class="logo">
+                <a href="real.html"><img src=""> </a>  
+        </div>
+            <ul>
+<!--     The anchor tag which helps to have a link to another page when clicked upon-->
+            <li><a href="estate.html">HOME</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="suggesion.html">FEEDBACK</a></li>
+            <li class="active"><a href="contact.html">CONTACT US</a></li>
+        </ul>
+        </div>
+        </header>  
+            <div class="button">
+        <div class="container">
+<!--    WE START FROM HERE, THE FORM TO SUBMIT THERE DETAILS AND WE GIVE THE ACTION AS TO GO BACKTO THE MAIN PAGE-->
+    <form action="gallery.html">
+    <div class="row">
+        <div class="col-25">
+            <label for="fname">FIRST NAME</label>
+        </div>
+        <div class="col-75">
+            <input type="text" id="fname" name="firstname" placeholder="YOUR FIRST NAME__">
+        </div>
+        </div>
+    <div class="row">
+        <div class="col-25">
+            <label for="Lname">LAST NAME</label>
+        </div>
+        <div class="col-75">
+            <input type="text" id="Lname" name="lastname" placeholder="YOUR LAST NAME__">
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="country">COUNTRY</label>
+            </div>
+            <div class="col-75">
+<!--   HERE WE ARE USE THE DROP MENU TO SELECT THE COUNTRY-->
+                <select id="country" name="country">
+                    <option value="india">INDIA</option>
+                   <option value="australia">AUSTRALIA</option>
+                    <option value="canada">CANADA</option>
+                     <option value="nepal">NEPAL</option>
+                     <option value="usa">USA</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="subject">SUBJECT</label>
+            </div>
+            <div class="col-75">
+<!--    PLACE HOLDERS ARE USED TO HOLDS THE SAMPLE-->
+                <textarea id="subject" name="subjest" placeholder="write something">Add Your Comments Here</textarea>
+                <input type="submit" value="I AGREE">
+            </div>
+        </div>
+            </form>
+            </div>
+        </div>
+            <div class="footer">
+    <!-- THE FOOTER IS USED TO SHOW THE COPYRIGHT OF THE PAGE OWNER TO BE PRESENT-->
+    <P>@ COPYRIGHT @2020 BY RUCHITHA,HAMSAVENI AND SNEHASHREE</P>
+    </div>
+    </body>
+</html>
